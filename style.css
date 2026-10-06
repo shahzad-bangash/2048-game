@@ -116,7 +116,7 @@ body {
   gap: 0.75rem;
 }
 
-/* Header & Back Navigation */
+/* Header Navigation */
 .game-header {
   display: flex;
   align-items: center;
@@ -124,6 +124,7 @@ body {
   width: 100%;
   flex-shrink: 0;
   position: relative;
+  z-index: 100;
 }
 
 .back-link {
@@ -201,6 +202,7 @@ body {
   display: flex;
   align-items: center;
   gap: 0.55rem;
+  margin-left: auto;
 }
 
 .icon-toggle-btn {
@@ -238,6 +240,7 @@ body {
    -------------------------------------------------------------------------- */
 .game-card {
   position: relative;
+  z-index: 10;
   background: var(--bg-card);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
